@@ -31,6 +31,15 @@ public class Ex08_multi_array {
 						{6,7,8,9,10},
 						{11,12,13,14,15},
 						{16,17,18,19,20}};
-
+		
+		int sum = 0;
+		for(int i = 0; i < iArr.length; i++) {
+			for(int j = 0; j < 5; j++) {
+				sum += iArr[i][j];
+			}
+		}
+		System.out.println("sum : " + sum);
+		
+		
 	}
 }
